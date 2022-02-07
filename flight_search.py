@@ -5,9 +5,9 @@ class FlightSearch:
     #This class is responsible for talking to the Flight Search API.
     
     def __init__(self):
-        self.atr='abc'
-        self.url = 'https://tequila-api.kiwi.com'
-        self.api = 'hoSJORYHE_GBTFLteUceTD6watBbxOwl'
+        
+        self.url = URL2KIWI
+        self.api = APIKEY
         
     def get_iataCode(self, city):
         
